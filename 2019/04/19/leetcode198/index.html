@@ -79,16 +79,17 @@
 
 
 
-<meta name="description" content="=w=">
-<meta property="og:type" content="website">
-<meta property="og:title">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="你是一个计划沿着街道抢劫房屋的专业抢劫犯。每栋房子都有一定数量的钱被藏起来，唯一阻止你抢劫它们的限制是相邻的房子都有安全系统连接，如果两个相邻的房子在同一个晚上被闯入，它会自动联系警察。给出一个非负整数的列表，代表每个房子的钱的数量，确定你今晚可以抢劫的最大金额，而不需要报警。例1：  输入：[1,2,3,1]产量：4说明：Rob House 1（钱=1），然后Rob House 3（钱=3）。您">
+<meta property="og:type" content="article">
+<meta property="og:title" content="leetcode-198：House Robber">
+<meta property="og:url" content="http://yoursite.com/2019/04/19/leetcode198/index.html">
 <meta property="og:site_name">
-<meta property="og:description" content="=w=">
+<meta property="og:description" content="你是一个计划沿着街道抢劫房屋的专业抢劫犯。每栋房子都有一定数量的钱被藏起来，唯一阻止你抢劫它们的限制是相邻的房子都有安全系统连接，如果两个相邻的房子在同一个晚上被闯入，它会自动联系警察。给出一个非负整数的列表，代表每个房子的钱的数量，确定你今晚可以抢劫的最大金额，而不需要报警。例1：  输入：[1,2,3,1]产量：4说明：Rob House 1（钱=1），然后Rob House 3（钱=3）。您">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-04-19T11:38:14.472Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title">
-<meta name="twitter:description" content="=w=">
+<meta name="twitter:title" content="leetcode-198：House Robber">
+<meta name="twitter:description" content="你是一个计划沿着街道抢劫房屋的专业抢劫犯。每栋房子都有一定数量的钱被藏起来，唯一阻止你抢劫它们的限制是相邻的房子都有安全系统连接，如果两个相邻的房子在同一个晚上被闯入，它会自动联系警察。给出一个非负整数的列表，代表每个房子的钱的数量，确定你今晚可以抢劫的最大金额，而不需要报警。例1：  输入：[1,2,3,1]产量：4说明：Rob House 1（钱=1），然后Rob House 3（钱=3）。您">
 
 
 
@@ -118,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/19/leetcode198/">
 
 
 
 
 
-  <title></title>
+  <title>leetcode-198：House Robber | </title>
   
 
 
@@ -143,8 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -247,9 +247,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -279,9 +279,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/04/19/leetcode198/" itemprop="url">leetcode-198：House Robber</a></h1>
+          <h1 class="post-title" itemprop="name headline">leetcode-198：House Robber</h1>
         
 
         <div class="post-meta">
@@ -331,9 +329,7 @@
       
 
       
-        
-          
-            <p>你是一个计划沿着街道抢劫房屋的专业抢劫犯。每栋房子都有一定数量的钱被藏起来，唯一阻止你抢劫它们的限制是相邻的房子都有安全系统连接，如果两个相邻的房子在同一个晚上被闯入，它会自动联系警察。<br>给出一个非负整数的列表，代表每个房子的钱的数量，确定你今晚可以抢劫的最大金额，而不需要报警。<br>例1：</p>
+        <p>你是一个计划沿着街道抢劫房屋的专业抢劫犯。每栋房子都有一定数量的钱被藏起来，唯一阻止你抢劫它们的限制是相邻的房子都有安全系统连接，如果两个相邻的房子在同一个晚上被闯入，它会自动联系警察。<br>给出一个非负整数的列表，代表每个房子的钱的数量，确定你今晚可以抢劫的最大金额，而不需要报警。<br>例1：</p>
 <blockquote>
 <p>输入：[1,2,3,1]<br>产量：4<br>说明：Rob House 1（钱=1），然后Rob House 3（钱=3）。<br>您可以抢劫的总金额=1+3=4。</p>
 </blockquote>
@@ -355,8 +351,6 @@
 </ul>
 <h2 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">rob</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(nums.size()==<span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(nums.size()==<span class="number">1</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> nums[<span class="number">0</span>];</span><br><span class="line">        &#125; </span><br><span class="line">        <span class="keyword">if</span>(nums.size()==<span class="number">2</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> nums[<span class="number">0</span>] &gt; nums[<span class="number">1</span>] ? nums[<span class="number">0</span>] : nums[<span class="number">1</span>];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span>* dp = <span class="keyword">new</span> <span class="keyword">int</span>[nums.size()];</span><br><span class="line">        dp[<span class="number">0</span>] = nums[<span class="number">0</span>];</span><br><span class="line">        dp[<span class="number">1</span>] = nums[<span class="number">1</span>];</span><br><span class="line">        dp[<span class="number">2</span>] = nums[<span class="number">2</span>] + nums[<span class="number">0</span>];      </span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">3</span>; i &lt; nums.size(); i++) &#123;</span><br><span class="line">            dp[i] = dp[i<span class="number">-2</span>] + nums[i] &gt; dp[i<span class="number">-3</span>] + nums[i] ?</span><br><span class="line">                dp[i<span class="number">-2</span>] + nums[i] : dp[i<span class="number">-3</span>] + nums[i];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> dp[nums.size()<span class="number">-1</span>] &gt; dp[nums.size()<span class="number">-2</span>] ?</span><br><span class="line">            dp[nums.size()<span class="number">-1</span>] : dp[nums.size()<span class="number">-2</span>];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-          
-        
       
     </div>
     
@@ -373,142 +367,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/19/note1/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="样样">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/uploads/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content>
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/04/19/note1/" itemprop="url">leetcode-438：Find All Anagrams in a String</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-19T19:25:29+08:00">
-                2019-04-19
-              </time>
+              <a href="/2019/04/19/note1/" rel="next" title="leetcode-438：Find All Anagrams in a String">
+                <i class="fa fa-chevron-left"></i> leetcode-438：Find All Anagrams in a String
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给定一个字符串s和一个非空字符串p，在s中查找p的变位词的所有起始索引。<br>字符串仅由小写英文字母组成，字符串s和p的长度将不大于20100。<br>输出顺序无关紧要。<br>例1：</p>
-<blockquote>
-<p>输入：<br>S：“cbaebabacd”P：“ABC”<br>输出：<br>〔0, 6〕<br>说明：<br>起始索引为0的子字符串是“cba”，它是“abc”的变位词。<br>起始索引为6的子字符串是“bac”，它是“abc”的变位词。</p>
-</blockquote>
-<p>例2：</p>
-<blockquote>
-<p>输入：<br>S：“ABAB”P：“AB”<br>输出：<br>〔0, 1, 2〕<br>说明：<br>起始索引为0的子字符串是“ab”，它是“ab”的变位词。<br>start index=1的子字符串是“ba”，它是“ab”的变位词。<br>起始索引为2的子字符串是“ab”，它是“ab”的变位词。</p>
-</blockquote>
-<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>首先，先构造一个map，对于p中的每个字符char，都有map[char]++。<br>然后，初始化一个长度为0的窗口，left = 0，right = 0。第一步先扩展窗口，也就是在right的右边界上做文章。每次right读到一个字符char，都有map[char]–。当map[char]的值大于等于1时，很明显就是窗口中进入了一个p中含有的字符。我们可以取一个变量count，值为p中所有字符的总数。每次有一个p中字符进入窗口，则count–。这样，当count == 0的时候，表明我们的窗口中包含了p中的全部字符，得到一个结果。<br>当窗口包含一个结果以后，为了进一步遍历，我们需要缩小窗口使窗口不再包含全部的p，同样，如果map[char]&gt;=0，表明一个在p中的字符就要移除窗口，那么count ++，以此类推。</p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; findAnagrams(<span class="built_in">string</span> s, <span class="built_in">string</span> p) &#123;</span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; index;</span><br><span class="line">        <span class="keyword">int</span>* maps = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">256</span>]&#123;<span class="number">0</span>&#125;;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; p.length(); i++) &#123;</span><br><span class="line">            maps[p[i]]++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> right = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> left = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> count = p.length();</span><br><span class="line">        <span class="keyword">while</span>(right &lt; s.length()) &#123;</span><br><span class="line">            <span class="keyword">if</span>(maps[s[right++]]--&gt;=<span class="number">1</span>)</span><br><span class="line">                count--;</span><br><span class="line">            <span class="comment">//cout&lt;&lt;count&lt;&lt;endl;</span></span><br><span class="line">            <span class="keyword">if</span>(count == <span class="number">0</span>)</span><br><span class="line">                index.push_back(left);</span><br><span class="line">           <span class="comment">// cout&lt;&lt;right&lt;&lt;","&lt;&lt;left&lt;&lt;"."&lt;&lt;s[left]&lt;&lt;","&lt;&lt;maps[s[left]]&lt;&lt;endl;</span></span><br><span class="line">            <span class="keyword">if</span>(right - left == p.length() </span><br><span class="line">              &amp;&amp; maps[s[left++]]++ &gt;= <span class="number">0</span>)</span><br><span class="line">                count++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> index;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<h2 id="类似题目"><a href="#类似题目" class="headerlink" title="类似题目"></a>类似题目</h2><p><a href="https://leetcode.com/problems/minimum-window-substring/" target="_blank" rel="noopener">https://leetcode.com/problems/minimum-window-substring/</a><br><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank" rel="noopener">https://leetcode.com/problems/longest-substring-without-repeating-characters/</a><br><a href="https://leetcode.com/problems/substring-with-concatenation-of-all-words/" target="_blank" rel="noopener">https://leetcode.com/problems/substring-with-concatenation-of-all-words/</a><br><a href="https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/" target="_blank" rel="noopener">https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/</a><br><a href="https://leetcode.com/problems/find-all-anagrams-in-a-string/" target="_blank" rel="noopener">https://leetcode.com/problems/find-all-anagrams-in-a-string/</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -518,138 +398,11 @@
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/22/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="样样">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/uploads/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content>
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/03/22/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-22T09:21:43+08:00">
-                2019-03-22
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -657,6 +410,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -677,8 +434,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -722,6 +488,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#思路"><span class="nav-number">1.</span> <span class="nav-text">思路</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#思路1"><span class="nav-number">1.1.</span> <span class="nav-text">思路1</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码"><span class="nav-number">2.</span> <span class="nav-text">代码</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#思路2"><span class="nav-number">2.1.</span> <span class="nav-text">思路2</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码-1"><span class="nav-number">3.</span> <span class="nav-text">代码</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -862,6 +644,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
